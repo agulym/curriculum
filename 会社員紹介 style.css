@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+body .main {
+  font-family: "源ノ角ゴシック regular", "源ノ角ゴシック normal", "源ノ角ゴシック medium", "源ノ角ゴシック bold";
+  color: #333333;
+  width: 100%;
+}
+body .main .members .orange-line-ceo {
+  width: 185px;
+}
+body .main .members .orange-line-member {
+  width: 225px;
+}
+body .main .members .orange-line-wrap {
+  display: flex;
+  justify-content: space-around;
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: solid 4px #FD9603;
+  margin: 0 270px 0 auto;
+}
+body .main .members .orange-line-wrap .orange-line {
+  font-size: 26px;
+  margin: 0;
+}
+body .main .members .orange-line-wrap .orange-line-english {
+  color: #FD9603;
+}
+body .main .members .wrapper {
+  width: 100%;
+  padding: 50px 0;
+  background: linear-gradient(180deg, #fafafa 70%, #e6e6e6 30%);
+}
+body .main .members .wrapper .wrap {
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  padding: 105px 0;
+  background-color: #ffffff;
+}
+body .main .members .wrapper .wrap .introduction {
+  width: 40%;
+}
+body .main .members .wrapper .wrap .introduction .job-name {
+  border-bottom: solid 1px #333;
+  padding: 0 20px 10px 20px;
+}
+body .main .members .wrapper .wrap .introduction .job-name .job {
+  font-size: 14px;
+}
+body .main .members .wrapper .wrap .introduction .article {
+  padding: 20px 20px 0 20px;
+}
+body .main .members .wrapper .wrap .introduction .article .article-p {
+  margin: 0;
+}
+body .main .members .wrapper .wrap .image {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+body .main .members .wrapper .wrap .image .face {
+  width: 100%;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.05);
+}
+body .main .members .include-orange-line {
+  padding-top: 150px;
+}
+
+.wrapper:nth-of-type(2n) .wrap {
+  flex-direction: row-reverse;
+}
+.bg_padding-box{
+  top: 633px;
+  width: 1000px;
+  height: 120px;
+background: #E6E6E6 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index: 1;
+}
